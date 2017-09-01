@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(149, 129, 147, 0.30);
+    flex-wrap: wrap;
+    display:flex;
+
+}
+#add {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 34px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #EFE8E8;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor:pointer;
+}
+#addMatiere{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 34px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #EFE8E8;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor:pointer;
+
+
+}
+.ficheeleve{
+    position: relative;
+    margin: 10px; 
+    background-color: rgba(218, 245, 9, 0.40);
+    width:200px;
+    height: 500px;
+    text-align:center;
+    -webkit-box-shadow: 7px 13px 47px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 13px 47px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 13px 47px 0px rgba(0,0,0,0.75);
+
+}
+
+form{
+    position:fixed;
+    right: 80px;
+    bottom:20px;
+    display:none;
+}
+
+#title{
+    width: 152px;
+}
+#content{
+    width: 150px;
+}
